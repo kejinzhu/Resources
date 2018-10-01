@@ -157,7 +157,11 @@ module.exports = {
           // In production, we use a plugin to extract that CSS to a file, but
           // in development "style" loader enables hot editing of CSS.
           {
+<<<<<<< HEAD
             test: /\.(css|less)$/,
+=======
+            test: /\.css$/,
+>>>>>>> 9d792bcf50c9fb0e6761dd26e292bde92f959b20
             use: [
               require.resolve('style-loader'),
               {
@@ -186,9 +190,12 @@ module.exports = {
                   ],
                 },
               },
+<<<<<<< HEAD
               {
                   loader:require.resolve('less-loader')
               }
+=======
+>>>>>>> 9d792bcf50c9fb0e6761dd26e292bde92f959b20
             ],
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
@@ -201,7 +208,11 @@ module.exports = {
             // its runtime that would otherwise processed through "file" loader.
             // Also exclude `html` and `json` extensions so they get processed
             // by webpacks internal loaders.
+<<<<<<< HEAD
             exclude: [/\.(js|jsx|mjs)$/, /\.html$/, /\.json$/,/\.(css|less)/],
+=======
+            exclude: [/\.(js|jsx|mjs)$/, /\.html$/, /\.json$/],
+>>>>>>> 9d792bcf50c9fb0e6761dd26e292bde92f959b20
             loader: require.resolve('file-loader'),
             options: {
               name: 'static/media/[name].[hash:8].[ext]',

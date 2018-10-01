@@ -90,9 +90,12 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "less": "^3.8.1",
     "less-loader": "^4.1.0"
+=======
+>>>>>>> 9d792bcf50c9fb0e6761dd26e292bde92f959b20
   }
 }
