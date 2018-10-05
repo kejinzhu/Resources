@@ -9,9 +9,10 @@ import zh_CN from'antd/lib/locale-provider/zh_CN';
 //导入公共CSS样式
 import './static/css/reset.css';
 import './static/css/common.less';
+import './static/css/style.css';
 
 // 导入组件
-// import TopBar from './components/TopBar';
+import TopBar from './components/TopBar';
 import FootBar from './components/FootBar';
 // import Detail from './routes/Detail';
 import Find from './routes/Find';
@@ -27,6 +28,7 @@ ReactDOM.render(<Provider store={store}>
     <HashRouter>
         <LocaleProvider locale={zh_CN}>
             <div>
+                <TopBar/>
                 <main className="container">
                     <Switch>
                         <Route exact path="/" component={Home}/>

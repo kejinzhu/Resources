@@ -1,0 +1,383 @@
+[
+    {
+        "id":"01",
+        "type": "food",
+        "img":"./images/home/list/home_list1.png",
+        "title":"北京麦当劳中关村南大街餐厅",
+        "time":"30分钟送达",
+        "sale":"月售3172",
+        "start_price":"￥0",
+        "distribution_fee":"￥9",
+        "description":"新用户立减15元,首次使用美团支付最高再减3元"
+    },{
+        "id": "02",
+        "type": "scenery",
+        "img": "./images/home/list/home_list2.png",
+        "title": "故宫博物院(5A)",
+        "distance":"7.0km",
+        "score":"4.8",
+        "comment_num":"135461",
+        "sale": "已售1012509",
+        "discount": "门票、套餐、线路游等优惠",
+        "price":"￥5起",
+        "description": "世界五大宫之首,明清两朝皇家宫殿"
+    },{
+        "id": "03",
+        "type": "food",
+        "img": "./images/home/list/home_list3.png",
+        "title": "田老师红烧肉(魏公村法华寺店)",
+        "time": "30分钟送达",
+        "sale": "月售4473",
+        "start_price": "￥20",
+        "distribution_fee": "￥5",
+        "description": "新用户立减6元,首次使用美团支付最高再减3元"
+    },{
+        "id": "04",
+        "type": "food_price",
+        "img": "./images/home/list/home_list4.png",
+        "title": "砂锅米线",
+        "distance": "6.4km",
+        "description": "[学院路]普通锅套餐,建议单人使用",
+        "price": "￥10.5",
+        "sale":"已售3413",
+        "discount":"6.6折"
+    },{
+        "id": "05",
+        "type": "food_price",
+        "img": "./images/home/list/home_list5.png",
+        "title": "村正寿司",
+        "distance": "6.4km",
+        "description": "[学院路]品质单人寿司套餐,包间免费",
+        "price": "￥258",
+        "sale": "已售257",
+        "discount": "6.5折"
+    },{
+        "id": "06",
+        "type": "scenery",
+        "img": "./images/home/list/home_list6.png",
+        "title": "北京动物园(4A)",
+        "distance": "1.3km",
+        "score": "4.2",
+        "comment_num": "37402",
+        "sale": "已售168834",
+        "discount": "门票、套餐、线路游等优惠",
+        "price": "￥85起",
+        "description": "规模巨大的城市动物园,动物种类繁多"
+    },{
+        "id": "07",
+        "type": "food_price",
+        "img": "./images/home/list/home_list7.png",
+        "title": "中央电视塔空中观景旋转餐厅",
+        "distance": "3.4km",
+        "description": "[航天桥]午餐+观光",
+        "price": "￥248",
+        "sale": "已售12484",
+        "discount": "6.3折"
+    },{
+        "id": "08",
+        "type": "scenery",
+        "img": "./images/home/list/home_list8.png",
+        "title": "北京欢乐谷(4A)",
+        "distance": "16.9km",
+        "score": "5.0",
+        "comment_num": "148995",
+        "sale": "已售48786",
+        "discount": "门票、套餐、线路游等优惠",
+        "price": "￥25起",
+        "description": "新北京十六景之一,尽享刺激的乐园"
+    },{
+        "id": "09",
+        "type": "food_price",
+        "img": "./images/home/list/home_list9.png",
+        "title": "奶茶嫁给粉",
+        "distance": "3.6km",
+        "description": "[5店通用]10元代金券1张,可叠加",
+        "price": "￥8.5",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "10",
+        "type": "food_price",
+        "img": "./images/home/list/home_list10.png",
+        "title": "1516串串香",
+        "distance": "2.4km",
+        "description": "[大钟寺]100元代金券1张,可叠加",
+        "price": "￥58",
+        "sale": "已售279",
+        "discount": "5.8折"
+    },{
+        "id": "11",
+        "type": "food_price",
+        "img": "./images/home/list/home_list11.png",
+        "title": "金逸影城(中关村店)",
+        "distance": "3.7km",
+        "description": "[中关村]影(8.2分)正在热映",
+        "price": "￥50",
+        "sale": "已售279",
+        "discount": "5.8折"
+    },{
+        "id": "12",
+        "type": "scenery",
+        "img": "./images/home/list/home_list12.png",
+        "title": "颐和园(5A)",
+        "distance": "3.7km",
+        "score": "4.7",
+        "comment_num": "31660",
+        "sale": "已售57001",
+        "discount": "门票、套餐、线路游等优惠",
+        "price": "￥41起",
+        "description": "保存最完好的皇家园林之一"
+    },{
+        "id": "13",
+        "type": "food",
+        "img": "./images/home/list/home_list13.png",
+        "title": "大鸭梨烤鸭(大慧寺店)",
+        "time": "30分钟送达",
+        "sale": "月售1722",
+        "start_price": "￥20",
+        "distribution_fee": "￥5",
+        "description": "满45减23,满70减36,支持自取"
+    },{
+        "id": "14",
+        "type": "food_price",
+        "img": "./images/home/list/home_list14.png",
+        "title": "大粥锅",
+        "distance": "1.7km",
+        "description": "[4店通用]特色单人餐,提供免费WiFi",
+        "price": "￥16.8",
+        "sale": "已售1534",
+        "discount": "5.8折"
+    },{
+        "id": "15",
+        "type": "food_price",
+        "img": "./images/home/list/home_list15.png",
+        "title": "一喜日本料理",
+        "distance": "5.2km",
+        "description": "[牡丹园/北太平庄]100元代金券1张,可叠加",
+        "price": "￥95",
+        "sale": "已售2416",
+        "discount": "5.8折"
+    },{
+        "id": "16",
+        "type": "food_price",
+        "img": "./images/home/list/home_list16.png",
+        "title": "甲哺甲哺",
+        "distance": "1.4km",
+        "description": "[171店通用]缤纷海陆双人餐,提供免费WiFi",
+        "price": "￥85",
+        "sale": "已售4910",
+        "discount": "5.8折"
+    },{
+        "id": "17",
+        "type": "food_price",
+        "img": "./images/home/list/home_list17.png",
+        "title": "你可满足养生会馆",
+        "distance": "7.5km",
+        "description": "[白纸坊]单人精油开背",
+        "price": "￥108",
+        "sale": "已售40",
+        "discount": "5.8折"
+    },{
+        "id": "18",
+        "type": "food_price",
+        "img": "./images/home/list/home_list18.png",
+        "title": "地铁直达西单北京南站火车站",
+        "distance": "28.7km",
+        "description": "[榛果民宿]很好：408分 93人消费",
+        "price": "￥280",
+        "sale": "已售40",
+        "discount": "5.8折"
+    },{
+        "id": "19",
+        "type": "food_price",
+        "img": "./images/home/list/home_list19.png",
+        "title": "慈铭体检(官方直营)",
+        "distance": "25.7km",
+        "description": "[多城市]慈铭体检单人优选A套餐",
+        "price": "￥298",
+        "sale": "已售40",
+        "discount": "5.8折"
+    },{
+        "id": "20",
+        "type": "food_price",
+        "img": "./images/home/list/home_list20.png",
+        "title": "奶茶嫁给粉",
+        "distance": "3.6km",
+        "description": "[5店通用]10元代金券1张,可叠加",
+        "price": "￥8.5",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "21",
+        "type": "food_price",
+        "img": "./images/home/list/home_list21.png",
+        "title": "汉釜宫烤涮自助旗舰店",
+        "distance": "2.7km",
+        "description": "[北下关]学生专享午晚餐",
+        "price": "￥66",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "22",
+        "type": "scenery",
+        "img": "./images/home/list/home_list22.png",
+        "title": "八达岭长城(5A)",
+        "distance": "52.5km",
+        "score": "4.8",
+        "comment_num": "22854",
+        "sale": "已售57001",
+        "discount": "门票、套餐、线路游等优惠",
+        "price": "￥25起",
+        "description": "世界文化遗产,世界七大奇迹之一 "
+    },{
+        "id": "23",
+        "type": "food",
+        "img": "./images/home/list/home_list23.png",
+        "title": "面和抄手(交大店)",
+        "time": "30分钟送达",
+        "sale": "月售3172",
+        "start_price": "￥35",
+        "distribution_fee": "￥7",
+        "description": "满25减6,满36减8,支持自取"
+    },{
+        "id": "24",
+        "type": "food",
+        "img": "./images/home/list/home_list24.png",
+        "title": "湘渝小厨",
+        "time": "30分钟送达",
+        "sale": "月售3172",
+        "start_price": "￥20",
+        "distribution_fee": "￥6",
+        "description": "新用户立减19元,首次使用美团支付最高再减3元"
+    },{
+        "id": "25",
+        "type": "food_price",
+        "img": "./images/home/list/home_list25.png",
+        "title": "犟骨头",
+        "distance": "2.4km",
+        "description": "[8店通用]招牌排骨饭套餐,建议单人使用",
+        "price": "￥21",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "26",
+        "type": "food_price",
+        "img": "./images/home/list/home_list26.png",
+        "title": "晟嘉国际影城(新华百货店)",
+        "distance": "4.0km",
+        "description": "[新街口]无双(8.9分)正在热映",
+        "price": "￥19.9",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "27",
+        "type": "food",
+        "img": "./images/home/list/home_list27.png",
+        "title": "嘉和一品粥(魏公村)",
+        "time": "30分钟送达",
+        "sale": "月售3172",
+        "start_price": "￥20",
+        "distribution_fee": "￥5",
+        "description": "新用户立减6元,首次使用美团支付最高再减3元"
+    },{
+        "id": "28",
+        "type": "food",
+        "img": "./images/home/list/home_list28.png",
+        "title": "二十五块半(四道口店)",
+        "time": "30分钟送达",
+        "sale": "月售3172",
+        "start_price": "￥20",
+        "distribution_fee": "￥4",
+        "description": "新用户立减17元,首次使用美团支付最高再减3元"
+    },{
+        "id": "29",
+        "type": "food_price",
+        "img": "./images/home/list/home_list29.png",
+        "title": "分米鸡 DM Chicken",
+        "distance": "3.9km",
+        "description": "[7店通用]分米鸡5.0DM套餐1份",
+        "price": "￥168",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "30",
+        "type": "food",
+        "img": "./images/home/list/home_list30.png",
+        "title": "东北老杨麻辣拌(魏公村店)",
+        "time": "30分钟送达",
+        "sale": "月售3172",
+        "start_price": "￥15",
+        "distribution_fee": "￥3",
+        "description": "新用户立减22元,首次使用美团支付最高再减3元"
+    },{
+        "id": "31",
+        "type": "food_price",
+        "img": "./images/home/list/home_list31.png",
+        "title": "美拍证件照工作室",
+        "distance": "<500m",
+        "description": "[魏公村]证件照1套(1寸或2寸2选1)",
+        "price": "￥78",
+        "sale": "已售59263",
+        "discount": "4折"
+    },{
+        "id": "32",
+        "type": "food_price",
+        "img": "./images/home/list/home_list32.png",
+        "title": "蜀乡竹林风味酒楼",
+        "distance": "3.9km",
+        "description": "[紫竹桥]100元代金券一张,可叠加",
+        "price": "￥90",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "33",
+        "type": "food_price",
+        "img": "./images/home/list/home_list33.png",
+        "title": "唱吧麦颂KTV",
+        "distance": "3.9km",
+        "description": "[39店通用]周一至周日全时段3/2/6小时欢唱",
+        "price": "￥30",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "34",
+        "type": "food_price",
+        "img": "./images/home/list/home_list34.png",
+        "title": "村上一屋",
+        "distance": "3.9km",
+        "description": "[24店通用]抢购芒果大虾卷1份",
+        "price": "￥19.9",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "35",
+        "type": "food_price",
+        "img": "./images/home/list/home_list35.png",
+        "title": "豪尚豪牛排馆",
+        "distance": "3.9km",
+        "description": "[28店通用]豪尚豪精致单人餐",
+        "price": "￥59",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "36",
+        "type": "food_price",
+        "img": "./images/home/list/home_list36.png",
+        "title": "无双",
+        "distance": "3.9km",
+        "description": "动作,惊悚,犯罪",
+        "price": "￥25",
+        "sale": "已售59263",
+        "discount": "6.9折"
+    },{
+        "id": "37",
+        "type": "food",
+        "img": "./images/home/list/home_list37.png",
+        "title": "小厨小菜(皂君庙店)",
+        "time": "30分钟送达",
+        "sale": "月售4473",
+        "start_price": "￥20",
+        "distribution_fee": "￥3",
+        "description": "满29减16,满48减26,支持自取"
+    }
+]
