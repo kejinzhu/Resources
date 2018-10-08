@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './index.less'
 class Mime extends Component {
     render() {
-        return (<div>我的</div>)
+        return (<main>我的</main>)
     }
 }
 export default connect()(Mime);

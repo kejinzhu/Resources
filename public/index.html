@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=no">
     <meta name="theme-color" content="#000000">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.jpg">
     <title>九组项目-美团</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- 把rem计算放到body头部,目的是为了保证CSS导入后才执行这段JS(不写在index中而是写在页面中,就是为了保证这段程序加载速度快一些,没必要等到合并后的JS加载,先把样式处理了) -->
+    <script>
+        (function () {
+            function computed() {
+                let HTML = document.documentElement,
+                    winW = HTML.clientWidth,
+                    desW = 350;
+                if (winW >= desW) {
+                    HTML.style.fontSize = "100px";
+                    return;
+                }
+                HTML.style.fontSize = winW / 350 * 100 + "px";//html总单独写的代码尽量不要出现{}等操作,例如：Es6模板字符串,否则webpack编译失败
+            }
+            computed();
+            window.addEventListener('resize', computed, false);
+        })()
+    </script>
     <div id="root"></div>
-  </body>
+</body>
+
 </html>

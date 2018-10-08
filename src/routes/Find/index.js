@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './index.less'
 class Find extends Component {
     render() {
-        return (<div>发现</div>)
+        return (<main>发现</main>)
     }
 }
 export default connect()(Find);

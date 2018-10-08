@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './index.less'
 class Order extends Component {
     render() {
-        return (<div>订单</div>)
+        return (<main>订单</main>)
     }
 }
 export default connect()(Order);
